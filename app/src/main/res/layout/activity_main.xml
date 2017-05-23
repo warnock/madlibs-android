@@ -9,19 +9,16 @@
         android:layout_width="match_parent"
         android:layout_height="match_parent">
 
-    <TextView
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="Hello World!"
-        android:id="@+id/textView2" />
 
-        <EditText
+    <EditText
         android:layout_width="175dp"
         android:layout_height="30dp"
         android:id="@+id/color"
         android:background="@android:color/holo_orange_dark"
         android:layout_below="@+id/name"
-        android:layout_centerHorizontal="true" />
+        android:layout_centerHorizontal="true"
+        android:hint="Color"
+        android:textAlignment="center"/>
 
     <EditText
         android:layout_width="175dp"
@@ -29,7 +26,9 @@
         android:id="@+id/adjective"
         android:background="@color/yellow"
         android:layout_below="@+id/color"
-        android:layout_centerHorizontal="true" />
+        android:layout_centerHorizontal="true"
+        android:hint="Adjective"
+        android:textAlignment="center"/>
 
     <EditText
         android:layout_width="175dp"
@@ -37,6 +36,8 @@
         android:id="@+id/noun"
         android:background="@android:color/holo_green_light"
         android:layout_below="@+id/adjective"
+        android:hint="Noun"
+        android:textAlignment="center"
         android:layout_centerHorizontal="true" />
 
     <EditText
@@ -45,6 +46,8 @@
         android:id="@+id/noun1"
         android:background="@android:color/holo_blue_bright"
         android:layout_below="@+id/noun"
+        android:hint="Noun"
+        android:textAlignment="center"
         android:layout_centerHorizontal="true" />
 
     <EditText
@@ -53,6 +56,8 @@
         android:id="@+id/noun2"
         android:background="@android:color/holo_blue_light"
         android:layout_below="@+id/noun1"
+        android:hint="Noun"
+        android:textAlignment="center"
         android:layout_centerHorizontal="true" />
 
     <EditText
@@ -61,7 +66,9 @@
         android:id="@+id/food"
         android:background="@android:color/holo_purple"
         android:layout_below="@+id/noun2"
-        android:layout_centerHorizontal="true" />
+        android:layout_centerHorizontal="true"
+        android:hint="Food"
+        android:textAlignment="center"/>
 
     <EditText
         android:layout_width="175dp"
@@ -69,7 +76,9 @@
         android:id="@+id/verb"
         android:background="@android:color/holo_red_dark"
         android:layout_below="@+id/food"
-        android:layout_centerHorizontal="true" />
+        android:layout_centerHorizontal="true"
+        android:hint="Verb"
+        android:textAlignment="center" />
 
     <EditText
         android:layout_width="175dp"
@@ -77,7 +86,9 @@
         android:id="@+id/noun3"
         android:background="@android:color/holo_orange_dark"
         android:layout_below="@+id/verb"
-        android:layout_centerHorizontal="true" />
+        android:layout_centerHorizontal="true"
+        android:hint="Noun"
+        android:textAlignment="center"/>
 
     <EditText
         android:layout_width="175dp"
@@ -85,7 +96,9 @@
         android:id="@+id/noun4"
         android:background="@color/yellow"
         android:layout_below="@+id/noun3"
-        android:layout_centerHorizontal="true" />
+        android:layout_centerHorizontal="true"
+        android:hint="noun"
+        android:textAlignment="center"/>
 
     <EditText
         android:layout_width="175dp"
@@ -93,7 +106,9 @@
         android:id="@+id/noun5"
         android:background="@android:color/holo_green_light"
         android:layout_below="@+id/noun4"
-        android:layout_centerHorizontal="true" />
+        android:layout_centerHorizontal="true"
+        android:hint="Noun"
+        android:textAlignment="center"/>
 
     <EditText
         android:layout_width="175dp"
@@ -101,7 +116,9 @@
         android:id="@+id/adjective2"
         android:background="@android:color/holo_blue_bright"
         android:layout_below="@+id/noun5"
-        android:layout_centerHorizontal="true" />
+        android:layout_centerHorizontal="true"
+        android:hint="Ajective"
+        android:textAlignment="center"/>
 
     <EditText
         android:layout_width="175dp"
@@ -109,7 +126,9 @@
         android:id="@+id/noun6"
         android:background="@android:color/holo_blue_light"
         android:layout_below="@+id/adjective2"
-        android:layout_centerHorizontal="true" />
+        android:layout_centerHorizontal="true"
+        android:hint="Noun"
+        android:textAlignment="center"/>
 
     <EditText
         android:layout_width="175dp"
@@ -117,7 +136,9 @@
         android:id="@+id/exclamation"
         android:background="@android:color/holo_purple"
         android:layout_below="@+id/noun6"
-        android:layout_centerHorizontal="true" />
+        android:layout_centerHorizontal="true"
+        android:hint="Exclamation"
+        android:textAlignment="center"/>
 
     <EditText
         android:layout_width="175dp"
@@ -125,34 +146,56 @@
         android:id="@+id/place"
         android:background="@android:color/holo_red_dark"
         android:layout_below="@+id/exclamation"
-        android:layout_centerHorizontal="true" />
-
-        <EditText
-        android:layout_width="175dp"
-        android:layout_height="30dp"
-        android:id="@+id/noun7"
-        android:background="@color/yellow"
-        android:layout_below="@+id/food2"
-        android:layout_centerHorizontal="true"/>
+        android:layout_centerHorizontal="true"
+        android:hint="Place"
+        android:textAlignment="center"/>
 
     <EditText
         android:layout_width="175dp"
         android:layout_height="30dp"
         android:id="@+id/name"
         android:background="@android:color/holo_red_dark"
-        android:layout_marginTop="19dp"
+        android:layout_marginTop="10dp"
         android:layout_below="@+id/textView2"
-        android:layout_centerHorizontal="true" />
+        android:layout_centerHorizontal="true"
+        android:hint="Name"
+        android:textAlignment="center"/>
 
-        <EditText
-            android:layout_width="175dp"
-            android:layout_height="30dp"
-            android:id="@+id/food2"
-            android:background="@android:color/holo_orange_dark"
-            android:layout_below="@+id/place"
-            android:layout_alignLeft="@+id/place"
-            android:layout_alignStart="@+id/place" />
+    <EditText
+        android:layout_width="175dp"
+        android:layout_height="30dp"
+        android:id="@+id/food2"
+        android:background="@android:color/holo_orange_dark"
+        android:layout_below="@+id/place"
+        android:layout_alignLeft="@+id/place"
+        android:layout_alignStart="@+id/place"
+        android:hint="Food"
+        android:textAlignment="center"
+        android:layout_marginBottom="10dp"/>
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/getMadLibButton"
+        android:background="@android:color/holo_green_dark"
+        android:layout_below="@+id/food2"
+        android:text="Get MadLibin"
+        android:textColor="@android:color/white"/>
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Fill the form out and get your Mad Lib!"
+        android:id="@+id/textView2"
+        android:textAlignment="center"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="10dp"
+        android:textSize="20dp"/>
+
 
     </RelativeLayout>
 
 </ScrollView>
+
